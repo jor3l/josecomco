@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import striptags from "striptags";
 
-export default function Type({ speed, delay, children }) {
+export default function Type({ speed, delay, onComplete = null, children }) {
   const [typed, setTyped] = useState([]);
   const lineRef = useRef(null); //useCallback((node) => setLine(node), []);
 
@@ -52,7 +52,7 @@ export default function Type({ speed, delay, children }) {
         ),
         clone,
       ]);
-    }
+    } else if(onComplete) { onComplete(); }
   };
 
   useEffect(() => {
