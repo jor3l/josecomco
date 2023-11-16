@@ -1,3 +1,6 @@
+.container-inner p {
+    margin-bottom: 20px !important;
+}
 .wrapper{
     background-color: #008080; 
     position: absolute;
