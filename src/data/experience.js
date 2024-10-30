@@ -1,0 +1,105 @@
+const experience = [
+	{
+		company: 'ReachSuite.io',
+		role: 'Founding Engineer',
+		period: 'Dec 2023 – Present',
+		location: 'Toronto, ON, Canada',
+		logoUrl: '/reachsuite.jpeg',
+		description: [
+			'Joined ReachSuite as one of their first engineers to improve their platform for their growing number of customers.',
+			'Currently leading the redesign of their entire application, including the browser extension and all the behind-the-scenes technology.',
+			'Using tools like Docker for easier development, and working with Node.js and React for building the platform.',
+		],
+	},
+	{
+		company: 'Skillshare.com',
+		role: 'Staff Engineer',
+		period: 'Sep 2021 – Nov 2023',
+		location: 'US (remote)',
+		logoUrl: '/skillshare.png',
+		description: [
+			'As a Full Stack Engineer at Skillshare, I played a pivotal role in enhancing external client solutions and collaborated closely with the Enterprise team to optimize internal cloud-based tools.',
+			'My responsibilities included working within a multifunctional team, with a strong emphasis on Javascript for both serverless and node microservices, as well as utilizing React, Next, and Nest to accelerate the frontend development.',
+		],
+	},
+	{
+		company: 'Bunch AI',
+		role: 'Backend Developer',
+		period: 'Feb 2021 – July 2021',
+		location: 'Berlin (remote)',
+		logoUrl: '/bunch.png',
+		description: [
+			'At Bunch, I played a key role in revamping the backend infrastructure for their enhanced virtual coaching app.',
+			'Working with NodeJS and TypeScript in a microservices and serverless architecture, I implemented performance fixes and general enhancements.',
+			'This initiative resulted in a more seamless user experience, particularly for those aiming to enhance their leadership skills.',
+			'My proficiency in NodeJS, TypeScript, and expertise in microservices contributed to the successful delivery of effective solutions.',
+		],
+	},
+	{
+		company: 'Instructure',
+		role: 'Full-stack Developer',
+		period: 'Jun 2018 – Jan 2021',
+		location: 'Colombia - US remote',
+		organization: 'BairesDev',
+		logoUrl: '/bariesdev.png',
+		description: [
+			'At Instructure Inc, I began as a Node Developer for Commons, focusing on UI updates using Instructure Design components in React.',
+			'I optimized search functionality with ElasticSearch, introduced new features, and addressed reported bugs.',
+			"Transitioning to Instructure's Professional Services team, I specialized in Rails, React, and Postgres for Canvas reports and custom tools.",
+			'Working with AWS, I gained expertise in cloud services.',
+			'Throughout, I showcased a strong work ethic, collaborated effectively across teams, and delivered solutions enhancing user experiences.',
+		],
+	},
+	{
+		company: 'Domicilios.com',
+		role: 'Full-stack Developer',
+		period: 'Feb 2012 – Dec 2017',
+		location: 'Bogotá, Colombia',
+		organization: 'ClickDelivery | DeliveryHero',
+		logoUrl: '/domicilios.png',
+		description: [
+			"At Domicilios.com, I played a pivotal role in the company's evolution from a coupon service to a leading online food delivery platform in Colombia.",
+			'I contributed to the transition and designed critical systems to enhance operations.',
+			'Created an admin panel for efficient content management using JQuery and Bootstrap 2 and developing a system for optimizing order assignments, streamlining communication efforts.',
+			'As the company expanded, I collaborated on solutions with the growing tech team.',
+			'Following the acquisition by DeliveryHero, I led the development of a new website with a superior user experience, incorporating modern tools like React.',
+		],
+	},
+	{
+		company: 'VerdeMedia Latina S.A.S',
+		role: 'Tech Lead',
+		period: 'Sep 2012 – Apr 2013',
+		location: 'Bogotá, Colombia',
+		logoUrl: '/placeholder-logo.png',
+		description: [
+			'At VerdeMedia, I played a crucial role in revolutionizing recycling by creating a bridge between users and recycling machines.',
+			'I designed a finite state machine that communicated with hardware, assigning points for recycled materials.',
+			'Utilizing a database of identified products and sensors, the system ensured complete entry of items to prevent scams.',
+		],
+	},
+	{
+		company: 'PideFarma.com',
+		role: 'Full-stack Developer',
+		period: 'Apr 2013 – Apr 2014',
+		location: 'Bogotá, Colombia',
+		logoUrl: '/pidefarma.png',
+		description: [
+			'At Pidefarma, I played a key role in constructing their current platform.',
+			'I implemented various front-end functionalities and tools, optimizing inventory management for a more efficient and faster experience in their consolidated online store.',
+			'Additionally, I revamped the design by transitioning to Bootstrap.',
+		],
+	},
+	{
+		company: 'MDS Digital',
+		role: 'Freelance',
+		period: 'Dec 2012 – Aug 2014',
+		location: 'Bogotá, Colombia',
+		logoUrl: '/mds.png',
+		description: [
+			'At MDS, I contributed to the development of diverse websites, primarily focusing on responsive designs with Drupal as the backend.',
+			'Additionally, I had the opportunity to create a mobile web app experience, delivered as a Cordova application, currently in use by a pharmaceutical company in Colombia.',
+		],
+	},
+];
+
+export default experience;

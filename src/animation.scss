@@ -42,12 +42,12 @@
 }
 
 .screen > .content.on {
-  animation: turn-on 4s linear;
+  animation: turn-on 2s linear;
   animation-fill-mode: forwards;
 }
 
 .screen > .content:not(.on) {
-  animation: turn-off 4s linear;
+  animation: turn-off 2s linear;
   animation-fill-mode: forwards;
 }
 
@@ -60,7 +60,7 @@
   font-size: 60px;
   visibility: hidden;
   pointer-events: none;
-  animation: overlay-anim 5s linear;
+  animation: overlay-anim 3s linear;
   animation-fill-mode: forwards;
 }
 

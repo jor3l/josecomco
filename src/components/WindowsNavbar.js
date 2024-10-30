@@ -1,4 +1,4 @@
-export default () => {
+const WindowsNavbar = () => {
     let time = (new Date()).toLocaleTimeString().split(' ');
     time = `${time[0].substring(0, time[0].length - 3)} ${time[1]}`;
     return <div class="bar"> 
@@ -11,3 +11,5 @@ export default () => {
         <span id="time">{time}</span></div>
      </div>;
 }
+
+export default WindowsNavbar;
