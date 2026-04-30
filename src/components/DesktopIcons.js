@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
+import PropTypes from 'prop-types';
 import dragElement from '../utils/dragElement';
 
-const DesktopIcons = () => {
+const DesktopIcons = ({ onOpenPortfolio }) => {
 	useEffect(() => {
 		const icons = document.querySelectorAll('.icons>li');
 		// Display them at random times with a small delay:
@@ -57,7 +58,7 @@ const DesktopIcons = () => {
 				/>
 				<span>Mi PC</span>
 			</li>
-			<li>
+			<li onDoubleClick={onOpenPortfolio} style={{ cursor: 'pointer' }}>
 				<img
 					alt=''
 					src='data:image/png;base64,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'
@@ -66,6 +67,10 @@ const DesktopIcons = () => {
 			</li>
 		</ul>
 	);
+};
+
+DesktopIcons.propTypes = {
+	onOpenPortfolio: PropTypes.func,
 };
 
 export default DesktopIcons;
